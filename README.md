@@ -6,7 +6,7 @@ Exemplo de Input text com mascara de CEP para fazendo requisição a API da viac
 
 - React Text Mask
 
-![Preview](https://i.ibb.co/44tvH3t/react-cep-input-text-example.gif)
+![Preview](https://i.ibb.co/CzKtDC9/ezgif-com-resize.gif)
 
 ## Utilização
 
