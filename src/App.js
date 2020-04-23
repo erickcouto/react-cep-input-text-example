@@ -2,19 +2,16 @@ import React, { useState } from "react";
 import CepInputText from "./CepInputText";
 
 function App() {
-  const [address, setAddress] = useState({});
+  const [address, setAddress] = useState();
 
-  function handleOnSuccess(result) {
-    setAddress(result);
-  }
   return (
     <>
       <CepInputText
         style={{ fontSize: 18 }}
-        onSuccess={result => handleOnSuccess(result)}
+        onSuccess={(result) => setAddress(result)}
       />
       <main>
-        {address.logradouro && (
+        {address?.logradouro && (
           <>
             <p>
               <strong>Endereço:</strong> {address.logradouro}

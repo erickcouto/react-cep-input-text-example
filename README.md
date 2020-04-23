@@ -2,6 +2,8 @@
 
 Exemplo de Input text com mascara de CEP para fazendo requisição a API da viacep.com.br, para trazer o endereço do CEP informado, utilizando React Hooks
 
+Atualizado para ECMAScript 2020 (ES2020)
+
 ## Libraries
 
 - React Text Mask
